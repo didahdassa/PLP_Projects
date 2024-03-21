@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Week3</title>
+
+    <style>
+        .btn{
+            justify-content: space-between;
+        }
+        div{
+            margin-top: 7%;
+        }
+        fieldset{
+            width: 30%;
+            margin: auto;
+            margin-top: 5%;
+            background-color: blanchedalmond;
+        }
+        .cancel-button {
+            background-color: #ccc;
+            color: #333;
+            border: 1px solid #999;
+            border-radius: 4px;
+            padding: 8px 16px;
+            cursor: pointer;
+            }
+
+            .cancel-button:hover {
+            background-color: #999;
+            color: #fff;
+            }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Registering New Student</legend>
+
+        <form action="">
+            <div>
+                <label for="student">Student Name</label>
+                <input type="text" name="student" placeholder="Enter your name..." required>
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" name="dob" placeholder="Enter your birth date..." required>
+            </div>
+
+            <div>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="male" required>Male
+                <input type="radio" name="gender" value="female" required>Female
+            </div>
+
+            <div>
+                <label for="address">Address</label>
+                <input type="text" name="address" placeholder="Enter your address..." required>
+            </div>
+
+            <div>
+                <label for="contacts">Telephone</label>
+                <input type="text" name="contacts" placeholder="Enter your contacts number..." required>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" placeholder="Enter your email..." required>
+            </div>
+
+            <div>
+                <label for="course">Course</label>
+                <input type="text" name="course" placeholder="your course..." required>
+            </div>
+
+            <div class="btn">
+                <button type="button" class="cancel-button">Cancel</button>
+                <button type="submit" class="cancel-button">Register</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
