@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS STYLING</title>
+
+    <style>
+        #header{
+            background-color: chocolate;
+            color: black;
+            padding: 5%;
+        }
+        #introduction{
+            background-color: antiquewhite;
+            margin-top: auto;
+            padding: 2%;
+        }
+        .skills {
+            padding: 10px;
+            }
+
+            .skills h2 {
+            margin-bottom: 10px;
+            }
+
+            .skills ul {
+            list-style-type: none;
+            padding: 0;
+            }
+
+            .skills li {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            }
+            .contact {
+                background-color: #f0f0f0;
+                padding: 20px;
+                }
+
+                .contact h2 {
+                margin-bottom: 10px;
+                }
+
+                .contact-details p {
+                margin-bottom: 10px;
+                }
+
+                .social-links {
+                padding: 0;
+                list-style-type: none;
+                }
+
+                .social-links li {
+                display: inline;
+                margin-right: 10px;
+                }
+                .social-links li a{
+                    text-decoration: none;
+                }
+
+                .social-links li:last-child {
+                margin-right: 0;
+                }
+
+                /* Media query for smaller screens */
+                @media screen and (max-width: 600px) {
+                .contact {
+                    padding: 10px;
+                }
+                
+                .contact h2 {
+                    font-size: 20px;
+                }
+                
+                .contact-details p {
+                    margin-bottom: 5px;
+                }
+                
+                .social-links li {
+                    margin-right: 5px;
+                }
+                }
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- header styling -->
+    <div id="header">
+        <h1>Hadija Rashidi</h1>
+    </div>
+
+    <!-- introduction section -->
+    <section id="introduction">
+        <p>
+            My name is Hadija Rashidi. A student of Arusha Technical College persuing
+            Bachelor's degree in computer science.
+        </p>
+    </section>
+
+    <!-- skills display -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>PHP</li>
+          <li>Java</li>
+          <li>C Programming</li>
+        </ul>
+      </section>
+
+      <!-- contacts info -->
+      <section class="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-details">
+          <p>Email: example@example.com</p>
+          <p>Social Media:</p>
+          <ul class="social-links">
+            <li><a href="https://twitter.com/didahdassa" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/didahdassa" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/didahdassa" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </section>
+      
+      
+    
+
+</body>
+</html>
